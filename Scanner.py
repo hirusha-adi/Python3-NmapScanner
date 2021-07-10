@@ -25,9 +25,9 @@ def ENTIRE_PROGRAM():
     print("The IP you entered is: ", ip_addr)
     type(ip_addr)
 
-    resp = input("""\n1)SYN ACK Scan
+    resp = input("""1)SYN ACK Scan
                 2)UDP Scan
-                3)Comprehensive Scan \n\nPlease enter the type of scan you want to run""")
+                3)Comprehensive Scan \n\nPlease enter the type of scan you want to run: """)
     print(f"{bcolors.OK}You have selected option: {resp} {bcolors.RESET}")
 
     if resp == '1':
